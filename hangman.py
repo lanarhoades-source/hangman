@@ -1,7 +1,7 @@
 from getpass import getpass
 
     #type the guess word here
-secret_word=getpass('input the secret word').lower()
+secret_word=getpass('input the secret word:  ').lower()
 
 #cartoon hangman code
 cartoon_list=[
@@ -21,7 +21,7 @@ wrong_guess=''
 masked_secret_word=['_' for x in secret_word]
 
 while strikes <7:
-    guess=input('input a single letter or number for your guess').lower()[0]
+    guess=input('input a single letter or number for your guess:  ').lower()[0]
     if guess in secret_word:
         for digit,letter in enumerate(secret_word):
             if letter == guess:
