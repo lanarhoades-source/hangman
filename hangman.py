@@ -4,17 +4,17 @@ from getpass import getpass
 secret_word=getpass().lower()
 
 #cartoon hangman code
-
-zero= "\t\t______\n\t\t      |\n\t\t      |\n\t\t      |\n\t\t      |\n\t\t   ___|___"
-one=  "\t\t______\n\t\t |    |\n\t\t      |\n\t\t      |\n\t\t      |\n\t\t   ___|___"
-two=  "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t      |\n\t\t      |\n\t\t   ___|___"
-three="\t\t______\n\t\t |    |\n\t\t O    |\n\t\t |    |\n\t\t      |\n\t\t   ___|___"
-four= "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|    |\n\t\t      |\n\t\t   ___|___"
-five= "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|\   |\n\t\t      |\n\t\t   ___|___"
-six=  "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|\   |\n\t\t/     |\n\t\t   ___|___"
-seven="\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|\   |\n\t\t/ \   |\n\t\t   ___|___"
-
-cartoon_list=[zero,one,two,three,four,five,six,seven]
+cartoon_list=[
+                "\t\t______\n\t\t      |\n\t\t      |\n\t\t      |\n\t\t      |\n\t\t   ___|___",
+                "\t\t______\n\t\t |    |\n\t\t      |\n\t\t      |\n\t\t      |\n\t\t   ___|___",
+                "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t      |\n\t\t      |\n\t\t   ___|___",
+                "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t |    |\n\t\t      |\n\t\t   ___|___",
+                "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|    |\n\t\t      |\n\t\t   ___|___",
+                "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|\   |\n\t\t      |\n\t\t   ___|___",
+                "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|\   |\n\t\t/     |\n\t\t   ___|___",
+                "\t\t______\n\t\t |    |\n\t\t O    |\n\t\t/|\   |\n\t\t/ \   |\n\t\t   ___|___",
+            ]
+cartoon_list
 
 
 strikes=0
