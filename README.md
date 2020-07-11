@@ -1,2 +1,3 @@
-# hangman
-simple hangman game
+# code functions
+random function that solve weird problems
+
